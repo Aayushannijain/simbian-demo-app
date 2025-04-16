@@ -1,1 +1,0 @@
-# simbian-demo-app
