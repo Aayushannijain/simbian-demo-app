@@ -93,7 +93,6 @@ export default function WithSimbian() {
                 value={wronglyClosed}
                 iconContainerClass="bg-red-500/20"
                 className="animate-float"
-                style={{ animationDelay: "0.2s" }}
               />
               <MetricCard
                 icon={<Activity className="w-6 h-6 text-blue-500" />}
@@ -101,7 +100,6 @@ export default function WithSimbian() {
                 value={activeThreats}
                 iconContainerClass="bg-blue-500/20"
                 className="animate-float"
-                style={{ animationDelay: "0.4s" }}
               />
             </div>
 

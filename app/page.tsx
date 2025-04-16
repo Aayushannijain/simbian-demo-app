@@ -75,7 +75,6 @@ export default function Home() {
                 value={wronglyClosed}
                 iconContainerClass="bg-red-500/20"
                 className="animate-float"
-                style={{ animationDelay: "0.2s" }}
               />
               <MetricCard
                 icon={<Activity className="w-6 h-6 text-red-500" />}
@@ -83,7 +82,6 @@ export default function Home() {
                 value={activeThreats}
                 iconContainerClass="bg-red-500/20"
                 className="animate-float"
-                style={{ animationDelay: "0.4s" }}
               />
             </div>
 
